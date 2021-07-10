@@ -10,11 +10,6 @@ public class IntegerArrayUtils {
      * @return array of integers between `start` and `stop` incrementing by 1
      */
     public static Integer[] getRange(Integer start, Integer end) {
-        Integer delta = end - start;
-        Integer[] result = new Integer[delta+1];
-        for (int i = 0; i <= delta; i++) {
-            result[i] = start + i;
-        }
-        return result;
+        return null;
     }
 }
